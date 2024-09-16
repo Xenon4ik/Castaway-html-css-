@@ -1,0 +1,39 @@
+.rew{
+    margin-bottom: 100px;;
+}
+
+.rew__list{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:16px;
+}
+.rew__stars{
+    width:110px;
+    height:18px;
+    background-image: url(../imges/star.svg);
+    background-repeat:space;
+    margin-bottom: 21px;
+}
+.rew__item{
+    box-sizing: border-box;
+    max-width: 423px;
+    height: 321px;
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 54px;
+    border-radius: 15px;
+
+}
+.rew__text{
+    font-size:1.8rem;
+    line-height: 1.2em;
+    max-width: 320px;
+    margin-bottom: 19px;
+
+}
+.rew__author{
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    color: rgba(225, 225, 225, .7);
+}

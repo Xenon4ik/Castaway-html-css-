@@ -1,0 +1,77 @@
+.episodes__wrapper{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 67px;
+    align-items: center;
+}
+.episode-section__title{
+    font-size: 3.2rem;
+    line-height: 1.24em;
+    font-weight: normal;
+}
+.episodes__all{
+    display: block;
+    font-size: 0.85rem;
+    line-height: 1.35em;
+    font-weight: normal;
+}
+.button{
+    padding:12px 20px;
+    background-color: #118DA8;
+    border-radius: 5px;
+    text-align: center;
+}
+.episodes__list{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+}
+.episodes__item{
+    max-width: 1300px;
+    background-color: #000;
+    border-radius:40px;
+    display: flex;
+}
+.episode__img{
+    margin:40px;
+}
+.episodes__content{
+    margin:40px 40px 40px 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.episode__class{
+    font-size:0.9rem;
+    line-height: 1.5em;
+    padding:0 16px;
+    background-color: #191919;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+.episode__number{
+    color:#118DA8;
+    font-size:0.85rem;
+    line-height: 1.588em;
+    margin-bottom: 18px;
+}
+.episode__title{
+    font-size:3.2rem;
+    line-height: 1.1em;
+    margin-bottom: 28px;
+}
+.episode__text{
+    font-size:1.1rem;
+    line-height: 1.5em;
+    margin-bottom: 18px;
+    font-weight: normal;
+}
+.episode__button{
+    font-size:0.9rem;
+    line-height:1.5em;
+    color:white;
+    padding:12px 15px 12px 20px;
+}
+.episodes{
+    margin-bottom:160px;
+}

@@ -1,0 +1,48 @@
+.introduce{
+    display: flex;
+    margin-bottom: 100px;
+}
+.introduce__effect{
+    position:relative;
+    top:-850px;
+    left:-700px;
+}
+.introduce__wrapper{
+    max-width: 530px;
+    margin:auto 0 auto 60px;
+
+}
+.page__title{
+    font-size: 3.5rem;
+    font-weight: normal;
+    line-height: 1.257em;
+    margin-bottom: 90px;
+}
+.social__text{
+    font-size: 0.75rem;
+    line-height: 1.6em;
+    margin-bottom: 16px;
+}
+.social__item{
+    width:32px;
+    height:32px;
+}
+.social__list{
+    display: flex;
+    gap:17px;
+    padding-left:0;
+}
+.social__item:nth-child(1){
+    background-image: url(../imges/spotify.svg);
+}
+.social__item:nth-child(2){
+    background-image: url(../imges/2.svg);
+}
+.social__item:nth-child(3){
+    background-image: url(../imges/3.svg);
+}
+.social__item:nth-child(4){
+    background-image: url(../imges/4.svg);
+}.social__item:nth-child(5){
+    background-image: url(../imges/5.svg);
+}

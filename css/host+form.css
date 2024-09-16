@@ -1,0 +1,113 @@
+.host{
+    padding: 100px 0;
+    display: flex;
+    gap:60px;
+    margin-bottom: 101px;
+}
+.host__wrapper{
+    margin: auto 0;
+}
+.host__arrow{
+    width:112px;
+    height:112px;
+    border-radius: 50%;
+    background-color: #118DA8;
+    cursor: pointer;
+    position:relative;
+    margin-bottom: 20px;
+}
+.arrow {
+    position: absolute;
+    left:10px;
+    top: 56px;
+    width: 70%;
+    height: 3px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  }
+  
+.arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 3px;
+    background-color: #fff;
+    right:0;
+  }
+  
+.arrow::after {
+    top: -10px;
+    transform: rotate(45deg);
+    right:-5px;
+  }
+  
+.arrow::before {
+    top: 10px;
+    right:-5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+  }
+.host_greeting{
+    color:#118DA8;
+    font-size: 0.9rem;
+    line-height: 1.5em;
+
+}
+.host_name{
+    font-size: 3.25rem;
+    line-height: 1.12em;
+    margin-bottom: 28px;
+}
+.host__text, .host__text-2{
+    color: rgba(225, 225, 225, .7);
+    font-size: 1.1rem;
+    line-height: 1.5em;
+}
+.host__text{
+    margin-bottom: 33px;
+}
+
+.subscribe_form__wrapper{
+    margin-left: 60px;
+}
+
+.subscribe_form{
+    padding:100px 0;
+    background-color: #000;
+    border-radius: 20px;
+    display: flex;
+    gap:227px;
+    margin-bottom: 100px;
+}
+.sf__text{
+    color:#118DA8;
+    font-size: 0.9rem;
+    line-height: 1.5em;
+}
+.sf__cta{
+    font-size: 3.6rem;
+    line-height: 1.1em;
+}
+.sf{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    gap:20px;
+}
+.sf__field{
+    background-color: #191919;
+    color: rgba(225, 225, 225, .7);
+    width:552px;
+    height:82px;
+    border-radius: 10px;
+    border:0;
+    padding-left:19px;
+}
+.sf__button{
+    color: rgba(225, 225, 225, .7);
+    border:0;
+    font-size: 0.75rem;
+    line-height: 1.92em     ;
+    padding:9px 15px 10px 19px;
+    max-width: 87px;
+}

@@ -1,0 +1,28 @@
+@import "css/normalize.css";
+@import "css/page-header.css";
+@import "css/introduce.css";
+@import "css/episodes.css";
+@import "css/host+form.css";
+@import "css/rew.css";
+@import "css/footer.css";
+
+html{
+    font-size: 20px;
+}
+body{
+    background-color: #191919;
+    font-family: "DM Sans", sans-serif;
+    color:white;
+    font-weight: normal;
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    margin:40px 70px 127px;
+}
+h2{
+    margin: 0;
+}

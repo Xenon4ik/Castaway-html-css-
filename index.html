@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castaway</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="page__header">
+        <div class="header__logo-wrapper">
+            <img src="./imges/logo.svg" width="160" height="33" alt="castaway logo">
+        </div>
+        <nav class="header__navigation">
+            <ul class="nav__list">
+                <li class="nav__item">Home</li>
+                <li class="nav__item">Episodes</li>
+                <li class="nav__item">About</li>
+                <li class="nav__item">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="page__content">
+        <section class="introduce">
+            <img src="./imges/dj.png" width="676" height="899" alt="man near mic">
+            <!-- <img class="introduce__effect" src="./imges/effect.svg" width="68px" height="74px" alt="beautiful effect"> -->
+            <div class="introduce__wrapper">
+                <h1 class="page__title">Take your podcast to the next <b>level</b></h1>
+                <div class="social__wrapper">
+                    <p class="social__text">Listen on</p>
+                    <ul class="social__list">
+                        <li class="social__item"></li>
+                        <li class="social__item"></li>
+                        <li class="social__item"></li>
+                        <li class="social__item"></li>
+                        <li class="social__item"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="episodes">
+            <div class="episodes__wrapper">
+                <h2 class="episode-section__title">Latest episodes</h2>
+                <a class="episodes__all button">View all episodes</a>
+            </div>
+            <div class="episodes__container">
+                <ul class="episodes__list">
+                    <li class="episodes__item">
+                        <img class="episode__img" src="./imges/ep1.png">
+                        <div class="episodes__content">
+                            <p class="episode__class">Gear</p>
+                            <p class="episode__number">Episode 3</p>
+                            <h3 class="episode__title">Should you get outboard audio gear?</h3>
+                            <p class="episode__text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
+                            <button class="episode__button button">View Episode Details</button>
+                        </div>
+                    </li>
+                    <li class="episodes__item">
+                        <img class="episode__img" src="./imges/ep2.png">
+                        <div class="episodes__content">
+                            <p class="episode__class">Tips & Tricks</p>
+                            <p class="episode__number">Episode 2</p>
+                            <h3 class="episode__title">Mic tricks to take you to the next level</h3>
+                            <p class="episode__text">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+                            <button class="episode__button button">View Episode Details</button>
+                        </div>
+                    </li>
+                    <li class="episodes__item">
+                        <img class="episode__img" src="./imges/ep3.png">
+                        <div class="episodes__content">
+                            <p class="episode__class">Gear</p>
+                            <p class="episode__number">Episode 1</p>
+                            <h3 class="episode__title">The best microphone under $200</h3>
+                            <p class="episode__text">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+                            <button class="episode__button button">View Episode Details</button>
+                        </div>
+                </ul>
+            </div>
+        </section>
+        <section class="host">
+            <div class="host__wrapper">
+                <div class="host__arrow">
+                    <div class="arrow"></div>
+                </div>
+                <p class="host_greeting">Meet your host</p>
+                <p class="host_name">Jacob Paulaner</p>
+                <p class="host__text">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+                <p class="host__text-2">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+            </div>
+            <img src="./imges/host.png" alt="photo of host" width="650" height="743">
+        </section>
+        <section class="subscribe_form">
+            <div class="subscribe_form__wrapper">
+                <div class="form_text__wrapper">
+                    <p class="sf__text">Email Newsletter</p>
+                    <p class="sf__cta">Subscribe for updates</p>
+                </div>
+            </div>
+            <form class="sf" action="#" method="post" target="_blank">
+                <input class="sf__field" type="text" name="name" placeholder="Name" id="name" required>
+                <input class="sf__field"type="text" name="name" placeholder="Email" id="name" required>
+                <button type="submit" class="button sf__button">Submit</button>
+            </form>
+        </section>
+        <section class="rew">
+            <ul class="rew__list">
+                <li class="rew__item">
+                    <div class="rew__stars"></div>
+                    <p class="rew__text">I can’t recommend this podcast enough</p>
+                    <p class="rew__author">Betty Lacey</p>
+                </li>
+                <li class="rew__item">
+                    <div class="rew__stars"></div>
+                    <p class="rew__text">Jacob is the best in the business</p>
+                    <p class="rew__author">Adam Driver</p>
+                </li>
+                <li class="rew__item">
+                    <div class="rew__stars"></div>
+                    <p class="rew__text">A wealth of audio knowledge</p>
+                    <p class="rew__author">Marcus Brown</p>
+                </li>
+                <li class="rew__item">
+                    <div class="rew__stars"></div>
+                    <p class="rew__text">Every episode is a gem!</p>
+                    <p class="rew__author">Jessica Knowl</p>
+                </li>
+                <li class="rew__item">
+                    <div class="rew__stars"></div>
+                    <p class="rew__text">Whoa whoa, let me take some notes!</p>
+                    <p class="rew__author">Scott Adams</p>
+                </li>
+                <li class="rew__item">
+                    <div class="rew__stars"></div>  
+                    <p class="rew__text">I’ve upped my game considerably since I started listening</p>
+                    <p class="rew__author">Steven Blast</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="page__footer">
+        <div class="footer_logo">
+            <img class="logo" src="./imges/logo.svg">
+            <ul class="footer__social">
+                <li class="social__items"></li>
+                <li class="social__items"></li>
+                <li class="social__items"></li>
+            </ul>
+        </div>
+        <nav class="footer__navigation">
+            <ul class="footer_nav__list">
+                <li class="nav__item">Home</li>
+                <li class="nav__item">Episodes</li>
+                <li class="nav__item">About</li>
+                <li class="nav__item">Contact</li>
+            </ul>
+        </nav>
+        <nav class="footer__idk">
+            <ul calss="footer_idk__list">
+                <li class="idk__items">Style Guide</li>
+                <li class="idk__items">Instructions</li>
+                <li class="idk__items">Changelog</li>
+                <li class="idk__items">Credit</li>
+                <li class="idk__items">Powered by Webflow</li>
+                <li class="idk__items">Licenses</li>
+            </ul>
+        </nav>
+        <ul class="social__list">
+            <li class="social__item"></li>
+            <li class="social__item"></li>
+            <li class="social__item"></li>
+            <li class="social__item"></li>
+            <li class="social__item"></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.page__header{
+    padding:26px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    line-height: 1.588em;
+}
+.nav__list{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
